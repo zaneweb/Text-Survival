@@ -13,6 +13,6 @@ Downloading / installing Text Survival is very easy
   * Clone Text survival with the following:
   `git clone https://github.com/Draik09/A-text-game.git`
 * Step three
-  * Go into the A-text-game folder and launch the `textGame.py` file with the python launcher.
+  * Go into the Text-Survival folder and launch the `textGame.py` file with the python launcher.
 * Step four
   * Enjoy!
