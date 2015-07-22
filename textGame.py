@@ -28,58 +28,58 @@ class Player:
     def testForItem(self, item, result):
         if (self.inv[0] == item):
                 print "HI"
-        if (self.inv[0] == "none"):
-                print "made " + result
-                self.inv[0] = result
-                print self.inv
-        elif (self.inv[1] == "none"):
-                print "made " + result
-                self.inv[1] = result
-                print self.inv
-        elif (self.inv[2] == "none"):
-                print "made " + result
-                self.inv[2] = result
-                print self.inv
-        elif (self.inv[3] == "none"):
-                print "made " + result
-                self.inv[3] = result
-                print self.inv
-        elif (self.inv[4] == "none"):
-                print "made " + result
-                self.inv[4] = result
-                print self.inv
-        elif (self.inv[5] == "none"):
-                print "made " + result
-                self.inv[5] = result
-                print self.inv
-        elif (self.inv[6] == "none"):
-                print "made " + result
-                self.inv[6] = result
-                print self.inv
-        elif (self.inv[7] == "none"):
-                print "made " + result
-                self.inv[7] = result
-                print self.inv
-        elif (self.inv[8] == "none"):
-                print "made " + result
-                self.inv[8] = result
-                print self.inv
-        elif (self.inv[1] == item):
-                print "made " + result
-        elif (self.inv[2] == item):
-                print "made " + result
-        elif (self.inv[3] == item):
-                print "made " + result
-        elif (self.inv[4] == item):
-                print "made " + result
-        elif (self.inv[5] == item):
-                print "made " + result
-        elif (self.inv[6] == item):
-                print "made " + result
-        elif (self.inv[7] == item):
-                print "made " + result
-        elif (self.inv[8] == item):
-                print "made " + result
+                if (self.inv[0] == "none"):
+                        print "made " + result
+                        self.inv[0] = result
+                        print self.inv
+                elif (self.inv[1] == "none"):
+                        print "made " + result
+                        self.inv[1] = result
+                        print self.inv
+                elif (self.inv[2] == "none"):
+                        print "made " + result
+                        self.inv[2] = result
+                        print self.inv
+                elif (self.inv[3] == "none"):
+                        print "made " + result
+                        self.inv[3] = result
+                        print self.inv
+                elif (self.inv[4] == "none"):
+                        print "made " + result
+                        self.inv[4] = result
+                        print self.inv
+                elif (self.inv[5] == "none"):
+                        print "made " + result
+                        self.inv[5] = result
+                        print self.inv
+                elif (self.inv[6] == "none"):
+                        print "made " + result
+                        self.inv[6] = result
+                        print self.inv
+                elif (self.inv[7] == "none"):
+                        print "made " + result
+                        self.inv[7] = result
+                        print self.inv
+                elif (self.inv[8] == "none"):
+                        print "made " + result
+                        self.inv[8] = result
+                        print self.inv
+                elif (self.inv[1] == item):
+                        print "made " + result
+                elif (self.inv[2] == item):
+                        print "made " + result
+                elif (self.inv[3] == item):
+                        print "made " + result
+                elif (self.inv[4] == item):
+                        print "made " + result
+                elif (self.inv[5] == item):
+                        print "made " + result
+                elif (self.inv[6] == item):
+                        print "made " + result
+                elif (self.inv[7] == item):
+                        print "made " + result
+                elif (self.inv[8] == item):
+                        print "made " + result
 
 player = Player()
 player.game(player.name)
