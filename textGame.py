@@ -23,63 +23,78 @@ class Player:
                 self.inv[0] = "wood"
                 print self.inv
                 self.inputOP()
-        if (self.input == "make planks"):
+        elif (self.input == "make planks"):
                 self.testForItem("wood", "wood_planks")
+        elif (self.input == "quit"):
+                print "goodbye"
+                exit()
+        else:
+                self.inputOP()
     def testForItem(self, item, result):
         if (self.inv[0] == item):
-                print "HI"
                 if (self.inv[0] == "none"):
                         print "made " + result
                         self.inv[0] = result
+                        self.inv[0] = "none"
                         print self.inv
                 elif (self.inv[1] == "none"):
                         print "made " + result
                         self.inv[1] = result
+                        self.inv[0] = "none"
                         print self.inv
                 elif (self.inv[2] == "none"):
                         print "made " + result
                         self.inv[2] = result
+                        self.inv[0] = "none"
                         print self.inv
                 elif (self.inv[3] == "none"):
                         print "made " + result
                         self.inv[3] = result
+                        self.inv[0] = "none"
                         print self.inv
                 elif (self.inv[4] == "none"):
                         print "made " + result
                         self.inv[4] = result
+                        self.inv[0] = "none"
                         print self.inv
                 elif (self.inv[5] == "none"):
                         print "made " + result
                         self.inv[5] = result
+                        self.inv[0] = "none"
                         print self.inv
                 elif (self.inv[6] == "none"):
                         print "made " + result
                         self.inv[6] = result
+                        self.inv[0] = "none"
                         print self.inv
                 elif (self.inv[7] == "none"):
                         print "made " + result
                         self.inv[7] = result
+                        self.inv[0] = "none"
                         print self.inv
                 elif (self.inv[8] == "none"):
                         print "made " + result
                         self.inv[8] = result
+                        self.inv[0] = "none"
                         print self.inv
-                elif (self.inv[1] == item):
-                        print "made " + result
-                elif (self.inv[2] == item):
-                        print "made " + result
-                elif (self.inv[3] == item):
-                        print "made " + result
-                elif (self.inv[4] == item):
-                        print "made " + result
-                elif (self.inv[5] == item):
-                        print "made " + result
-                elif (self.inv[6] == item):
-                        print "made " + result
-                elif (self.inv[7] == item):
-                        print "made " + result
-                elif (self.inv[8] == item):
-                        print "made " + result
+        elif (self.inv[1] == item):
+                print "made " + result
+        elif (self.inv[2] == item):
+                print "made " + result
+        elif (self.inv[3] == item):
+                print "made " + result
+        elif (self.inv[4] == item):
+                print "made " + result
+        elif (self.inv[5] == item):
+                print "made " + result
+        elif (self.inv[6] == item):
+                print "made " + result
+        elif (self.inv[7] == item):
+                print "made " + result
+        elif (self.inv[8] == item):
+                print "made " + result
+        else:
+            self.inputOP()
 
 player = Player()
 player.game(player.name)
