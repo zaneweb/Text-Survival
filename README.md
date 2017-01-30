@@ -16,3 +16,20 @@ Downloading / installing Text Survival is very easy
   * Go into the Text-Survival folder and launch the `textGame.py` file with the python launcher.
 * Step four
   * Enjoy!
+  
+# How to Use
+
+Using this is also quite easy. There are many commands available, and here is a guide for them.
+
+* punch wood
+  * The starting block (ha, get it?) of this program, it will break a block of wood and add it to your inventory.
+* make planks
+  * Crafts wooden planks. Requires wood!
+* make sticks
+  * Crafts sticks. Requires wooden planks!
+* make wood pick
+  * Crafts a wooden pickaxe. Requires wooden planks and sticks!
+* quit
+  * Exits the game.
+* pause
+  * Pauses the game.
